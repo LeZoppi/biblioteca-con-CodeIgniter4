@@ -1,0 +1,26 @@
+CRITICAL - 2023-02-07 22:47:40 --> syntax error, unexpected '=', expecting ']'
+in APPPATH\Controllers\Libros.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Libros.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Libros')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Libros')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Libros')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Libros', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 23:03:42 --> unlink(../puclic/uploads/1675810084_10956ab8a68adf14bf98.png): No such file or directory
+in APPPATH\Controllers\Libros.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../puclic/uploads/1675810084_10956ab8a68adf14bf98.png): No such file or directory', 'APPPATH\\Controllers\\Libros.php', 54, [...])
+ 2 APPPATH\Controllers\Libros.php(54): unlink('../puclic/uploads/1675810084_10956ab8a68adf14bf98.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 23:03:47 --> unlink(../puclic/uploads/1675810084_10956ab8a68adf14bf98.png): No such file or directory
+in APPPATH\Controllers\Libros.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../puclic/uploads/1675810084_10956ab8a68adf14bf98.png): No such file or directory', 'APPPATH\\Controllers\\Libros.php', 54, [...])
+ 2 APPPATH\Controllers\Libros.php(54): unlink('../puclic/uploads/1675810084_10956ab8a68adf14bf98.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
